@@ -4,7 +4,7 @@ class drdes {
 		allowcdrom=>true,
 	}
 	package {'firefox':
-		ensure=>'installed',
+		ensure=>'latest',
 		allowcdrom=>true,
 	}
 	
