@@ -3,6 +3,10 @@ class drdes {
 		ensure=>'installed',
 		allowcdrom=>true,
 	}
+	package {'vagrant':
+		ensure=>'installed',
+		allowcdrom=>true,
+	}
 	package {'firefox':
 		ensure=>'latest',
 		allowcdrom=>true,
